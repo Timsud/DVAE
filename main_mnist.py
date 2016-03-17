@@ -193,5 +193,4 @@ if __name__ == '__main__':
     book_keeping = np.asarray(book_keeping)
     print '+++ Mean test nll %g std test nll %g +++' % (np.mean(book_keeping), np.std(book_keeping))
 
-    f.close()
 
