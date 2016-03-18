@@ -33,11 +33,16 @@ Entry code for one-bit flip and factored minimum probability flow for mnist data
 
 Here are some samples generated from trained Denoising Variational Auto-encoder:
 
-![Image of Freyface](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/ff_samples.png)
+![Image of MNIST](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/mnist_samples.png)
 
+
+Here are some samples generated from trained Denoising Variational Auto-encoder:
+
+![Image of Freyface](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/ff_samples.png)
 
 Here are some samples generated from trained Denoising Variational Auto-encoder (DVAE):
 
 ![Image of Freyface](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/ff_anal2D.png)
+
 Traversing over 2D latent space of trained DVAE on Freyface dataset.
 
