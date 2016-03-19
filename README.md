@@ -35,7 +35,6 @@ Here are some samples generated from trained Denoising Variational Auto-encoder:
 
 ![Image of MNIST](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/mnist_samples.png)
 
-
 Here are some samples generated from trained Denoising Variational Auto-encoder:
 
 ![Image of Freyface](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/ff_samples.png)
