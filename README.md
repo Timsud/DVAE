@@ -41,6 +41,6 @@ Traversing over 2D latent space of trained DVAE on Freyface dataset.
 
 Here are some samples generated from trained Denoising Variational Auto-encoder (DVAE):
 
-![Image of MNIST](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/mnist_samples.png =400x)
+![Image of MNIST](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/mnist_samples.png )
 
 
