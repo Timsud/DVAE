@@ -15,7 +15,7 @@ tractable bound when input is corrupted. For more information, see
 }
 ```
 
-If you use this in your research, we kindly ask that you cite the above workshop paper
+If you use this in your research, we kindly ask that you cite the above arxiv paper
 
 
 ## Dependencies
