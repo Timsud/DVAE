@@ -1,10 +1,10 @@
 # Denoising Criterion for Variational Auto-encoding Framework 
-
-
 Python (Theano) implementation of Denoising Criterion for Variational Auto-encoding Framework code provided 
 by Daniel Jiwoong Im, Sungjin Ahn, Roland Memisevic, and Yoshua Bengio.
-The codes include experiments on hodge decomposition, in particular convservative components (for now),
-and vector field deformations in 2D. For more information, see 
+Denoising criterion injects noise in input and attempts to 
+generate the original data. This is shown to be advantageous.
+The codes include training criterion which corresponds to a 
+tractable bound when input is corrupted. For more information, see 
 
 ```bibtex
 @article{Im2016dvae,
