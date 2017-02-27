@@ -33,8 +33,8 @@ import theano.sandbox.rng_mrg as RNG_MRG
 rng = np.random.RandomState()
 MRG = RNG_MRG.MRG_RandomStreams(rng.randint(2 ** 30))
 
-datapath='/groups/branson/home/imd/Documents/machine_learning_uofg/data/MNIST/'
-
+#datapath='/groups/branson/home/imd/Documents/machine_learning_uofg/data/MNIST/'
+datapath='/home/daniel/Documents/data/mnist/'
 if not os.path.exists(os.path.dirname(os.path.realpath(__file__)) + "/figs/"):
     os.makedirs(os.path.dirname(os.path.realpath(__file__)) + "/figs/")
 if not os.path.exists(os.path.dirname(os.path.realpath(__file__)) + "/params/"):
@@ -139,7 +139,7 @@ CrossEntropyF = True
 corrupt_in    = 0.0
 model_type    = 'dvae'
 rnn_type      = 'grnn'
-data_type     = 'hugo_mnist'
+data_type     = 'mnist'
 print 'model type: ' + model_type
 print 'rnn type: ' + rnn_type
 print 'data Type: ' + data_type
@@ -177,9 +177,9 @@ if __name__ == '__main__':
             valid_set = [rng.binomial(1, valid_set_o[0]), valid_set_o[1]] 
             test_set  = [rng.binomial(1,  test_set_o[0]),  test_set_o[1]] 
 
-            train_set = ld.shared_dataset(train_set)
-            valid_set = ld.shared_dataset(valid_set)
-            test_set  = ld.shared_dataset(test_set )
+            train_set = shared_dataset(train_set)
+            valid_set = shared_dataset(valid_set)
+            test_set  = shared_dataset(test_set )
 
         print 'batch sz %d, epsilon %g, num_hid %d, num_z %d,  num_epoch %d corrupt_in %g' % \
                                 (batch_sz, epsilon, num_hid, num_z, num_epoch, corrupt_in)
