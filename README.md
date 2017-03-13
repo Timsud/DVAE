@@ -31,11 +31,6 @@ Entry code for one-bit flip and factored minimum probability flow for mnist data
     - /main_freyface.py
 ```
 
-VAE encoder filter versus DVAE encoder filter
-
-![Image of VAE ENC FILTER](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/vae_enc_W.png)
-![Image of DVAE ENC FILTER](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/dvae_enc_W.png)
-
 Here are some samples generated from trained Denoising Variational Auto-encoder (DVAE):
 
 ![Image of Freyface](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/ff_samples.png)
@@ -48,4 +43,9 @@ Here are some samples generated from trained Denoising Variational Auto-encoder 
 
 ![Image of MNIST](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/mnist_samples.png )
 
+
+VAE encoder filter versus DVAE encoder filter
+
+![Image of VAE ENC FILTER](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/vae_enc_W.png)
+![Image of DVAE ENC FILTER](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/dvae_enc_W.png)
 
