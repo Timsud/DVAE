@@ -46,6 +46,7 @@ Here are some samples generated from trained Denoising Variational Auto-encoder 
 
 VAE encoder filter versus DVAE encoder filter
 
-![Image of VAE ENC FILTER](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/vae_enc_W.png =500x1000)
-![Image of DVAE ENC FILTER](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/dvae_enc_W.png =500x1000)
+![Image of VAE ENC FILTER](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/vae_enc_W.png){width="500px"}
+
+![Image of DVAE ENC FILTER](https://raw.githubusercontent.com/jiwoongim/DVAE/master/figs/dvae_enc_W.png){width="500px"}
 
